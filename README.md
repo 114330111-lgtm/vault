@@ -7,3 +7,4 @@
 - 規則式分析免費；填 Anthropic API key 可切換成 Claude AI 分析
 - 書籤列按鈕 + URL 參數 + Web Share Target 三種擷取方式
 - iOS / Android「加入主畫面」變成 App
+
