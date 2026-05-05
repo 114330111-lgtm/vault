@@ -1,0 +1,26 @@
+{
+  "name": "Vault · 收藏庫",
+  "short_name": "Vault",
+  "description": "從各個網站擷取連結、圖片、文字，AI 自動分類",
+  "start_url": "./vault.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "lang": "zh-TW",
+  "icons": [
+    { "src": "vault-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "vault-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "share_target": {
+    "action": "./vault.html",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
